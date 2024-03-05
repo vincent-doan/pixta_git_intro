@@ -18,6 +18,7 @@ if __name__ == '__main__':
 
     mult = int(input("Add multiplier: "))
     sub = int(input("Add subtraction:"))
+    add = int(input("Add addition:"))
 
     if f == 0:
         a = int(input("Input value a: "))
@@ -35,4 +36,4 @@ if __name__ == '__main__':
 
     else:
         result = "Wrong input"
-    print(f"\nResult: {result * mult - sub}")
+    print(f"\nResult: {result * mult + add - sub}")
